@@ -1,0 +1,165 @@
+<!doctype html>  
+ 
+<head> 
+  
+ 
+  <title>C S S</title> 
+  
+  <link rel="stylesheet" href="css/style.css"> 
+    <script src="js/libs/modernizr-1.6.min.js"></script> 
+ 
+</head> 
+ 
+<body style="color:#6699ff"> 
+ <div id="container" > 
+  	<div class="extra_wrap" > 
+  	 <!-- header --> 
+    <header > 
+		 <!-- .logo --> 
+                         <div id="t"> 
+			  <img src="images/simple.jpg" alt="" /> 
+                          <img src="images/right.jpg" alt="" /> 
+ 			  <img src="images/left.jpg" alt="" />
+                          <img src="images/simple.jpg" alt="" /></div> 
+<script>
+   (function(){
+	var imglent=document.getElementById("t");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+        <!-- /.logo --> 
+
+<div id="y"> 
+			  <img src="images/bird1.jpg" alt="" /> 
+                          <img src="images/bird2.jpg" alt="" /> 
+ 			  <img src="images/bird1.jpg" alt="" /></div>
+<script>
+   (function(){
+	var imglent=document.getElementById("y");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+ 
+        <nav> 
+        <ul class="sf-menu"> 
+          <li><a href="index.html" class="current">Home</a></li> 
+
+<li>
+<a>Basic HTML</a>
+<ul>
+<li><a href='.\html.html'>Introduction</a></li>
+<li><a href='.\1.html'>Examples</a></li></ul>
+</li>
+<li>
+<a><b><big><big>CSS</big></big></b></a>
+<ul>
+<li><a href='.\css.html'>Introduction</a></li>
+<li><a href='.\2.html'>Examples</a></li></ul></li>
+<li>
+<a>Java Script</a>
+<ul>
+<li><a href='.\js.html'>Introduction</a></li>
+<li><a href='.\3.html'>Examples</a></li></ul></li> 
+<li>
+<a>PHP</a>
+<ul>
+<li><a href='.\php.html'>Introduction</a></li>
+<li><a href='.\4.html'>Examples</a></li></ul></li>        
+</ul> 
+</nav> 
+</header >     <!-- EOF header --> 
+    <div id="main"> 
+
+<H1>C S S (Cascading Style Sheet)</H1> 
+
+<p>CSS is an abbreviation for Cascading Style Sheets. CSS works with HTML and other Markup 
+Languages (such as XHTML and XML) to control the way the content is presented. Cascading Style 
+Sheets is a means to separate the appearance of a webpage from the content of a webpage. CSS is a 
+recommendation of the World Wide Web Consortium(the W3C). </p><br>
+<h3>What's the "Cascade" part of CSS? </h3>
+<p>The cascade part of CSS means that more than one stylesheet can be attached to a document, and 
+all of them can influence the presentation. For example, a designer can have a global stylesheet for 
+the whole site, but a local one for say, controlling the link color and background of a specific page. 
+Or, a user can use her own stylesheet if she has problems seeing the page, or if she just prefers a 
+certain look.<br>
+<h3>Anatomy Of CSS</h3>
+<pre>
+Selector{ 
+property1: some value; 
+property2: somevalue; 
+} 
+</pre><br>
+<p>The declaration contains the property and value for the selector. The property is the attribute you 
+wish to change and each property can take a value. The property and value are separated by a colon 
+and surrounded by curly braces: <br>
+body { background-color: black} <br>
+If the value of a property is more than one word, put quotes around that value: <br>
+body { font-family: "sans serif"; }</p><br>
+</div>
+   <div id="main"> 
+		<div class="container"> 
+<h1 style="color:#58ACFA;">Know More</h1>
+        	<div class="overflow"> 
+       		<div class="grid_3_5 alpha"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="html.html"><img src="images/html.jpg" alt="" /> </a>
+				<div class="info_block_title"> 
+                            	H T M L
+                            </div> 
+                            
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="js.html"><img src="images/js.jpg" alt="" /></a> 
+			    <div class="info_block_title"> 
+                            	JAVA SCRIPT
+                            </div>
+                        </div>
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5 omega"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="php.html"><img src="images/php.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	P H P
+                            </div>
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            </div> 
+</div>
+</div>
+
+<footer> 
+		<div class="copy">&copy; Copyright 2016,Ashutosh Nautiyal IT[6th]</div> 
+       
+    </footer>
+
+</div>
+</div>
+</body>
+</html>

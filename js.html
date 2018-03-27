@@ -1,0 +1,219 @@
+<!doctype html>  
+ 
+<head> 
+  
+ 
+  <title>JavaScript</title> 
+  
+  <link rel="stylesheet" href="css/style.css"> 
+  
+  <script src="js/libs/modernizr-1.6.min.js"></script> 
+ 
+</head> 
+ 
+<body style="color:#6699ff"> 
+ <div id="container" > 
+  	<div class="extra_wrap" > 
+  	 <!-- header --> 
+    <header > 
+		 <!-- .logo --> 
+                         <div id="t"> 
+			  <img src="images/simple.jpg" alt="" /> 
+                          <img src="images/right.jpg" alt="" /> 
+ 			  <img src="images/left.jpg" alt="" />
+                          <img src="images/simple.jpg" alt="" /></div> 
+<script>
+   (function(){
+	var imglent=document.getElementById("t");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+        <!-- /.logo --> 
+
+<div id="y"> 
+			  <img src="images/bird1.jpg" alt="" /> 
+                          <img src="images/bird2.jpg" alt="" /> 
+ 			  <img src="images/bird1.jpg" alt="" /></div>
+<script>
+   (function(){
+	var imglent=document.getElementById("y");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+ 
+        <nav> 
+        <ul class="sf-menu"> 
+          <li><a href="index.html" class="current">Home</a></li> 
+
+<li>
+<a>Basic HTML</a>
+<ul>
+<li><a href='.\html.html'>Introduction</a></li>
+<li><a href='.\1.html'>Examples</a></li></ul>
+</li>
+<li>
+<a>CSS</a>
+<ul>
+<li><a href='.\css.html'>Introduction</a></li>
+<li><a href='.\2.html'>Examples</a></li></ul></li>
+<li>
+<a><b><big><big>Java Script</big></big></b></a>
+<ul>
+<li><a href='.\js.html'>Introduction</a></li>
+<li><a href='.\3.html'>Examples</a></li></ul></li> 
+<li>
+<a>PHP</a>
+<ul>
+<li><a href='.\php.html'>Introduction</a></li>
+<li><a href='.\4.html'>Examples</a></li></ul></li>               
+       </ul> 
+      </nav> 
+</header >      <!-- EOF header --> 
+    <div id="main"> 
+
+<H1>Java Script</H1><br>
+
+<P>JavaScript is a programming language first developed by Netscape 
+Communications. It is now standard on nearly every browser. You should 
+know a few things about JavaScript right away:
+</p>
+<p>
+<ul>
+<li><b>It’s a real programming language</b>.Don’t let anybody tell you otherwise. 
+Sure, JavaScript doesn’t have all the same features as a monster, such as 
+C++ or VB.NET, but it still has all the hallmarks of a complete programming language.</li><br>
+<li><b>It’s not Java.</b> Sun Microsystems developed a language called Java, which 
+is also sometimes used in Web programming. Despite the similar names, 
+Java and JavaScript are completely different languages. The original plan 
+was for JavaScript to be a simpler language for controlling more complex Java applets, but that never really panned out.</li><br>
+<li><b>It’s a scripting language.</b>As programming languages go, JavaScript’s 
+pretty friendly. It’s not quite as strict or wordy as some other languages. 
+It also doesn’t require any special steps (such as compilation), so it’s 
+pretty easy to use. These things make JavaScript a great first language.</li><br>
+</ul>
+</p>
+<h3>Using JavaScript In HTML</h3>
+<p>
+JavaScript can be inserted into documents by
+using the SCRIPT tag:
+</p>
+<pre>Example:
+&lthtml&gt
+ &lthead&gt
+ &lttitle&gtHello World in JavaScript&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+ &ltscript type="text/javascript"&gt
+ document.write("Hello World!");
+ &lt/script&gt
+&lt/body&gt
+&lt/html&gt
+ 
+
+Scripts can be placed in the HEAD or in the BODY
+– In the HEAD, scripts are runbefore the page is displayed
+– In the BODY, scripts are runas the page is displayed
+
+Example:
+&lthtml&gt
+  &lthead&gt
+  &lttitle&gtHello World in JavaScript&lt/title&gt
+  &ltscript type="text/javascript"&gt
+  function helloWorld() {
+  document.write("Hello World!");}
+  &lt/script&gt
+  &lt/head&gt
+ &ltbody&gt
+  &ltscript type="text/javascript"&gt
+  helloWorld();
+  &lt/script&gt
+ &lt/body&gt
+&lt/html&gt
+
+
+Scripts can also be loaded from an external file
+-This is useful if you have a complicated script or
+set of subroutines that are used in several different
+documents.
+
+&lthead&gt
+&ltscript src="myscript.js"&gt&lt/script&gt
+&lt/head&gt
+
+There are three built-in methods of doing simple
+user interaction in JavaScript
+– alert(msg)alerts the user that somethinghas happened
+– confirm(msg) asks the userto confirm (or cancel)
+something
+– prompt(msg, default) asks the userto enter some text
+</pre><br>
+
+</div>
+<div id="main"> 
+		<div class="container"> 
+<h1 style="color:#58ACFA;">Know More</h1>
+        	<div class="overflow"> 
+       		<div class="grid_3_5 alpha"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="html.html"><img src="images/html.jpg" alt="" /> </a>
+				<div class="info_block_title"> 
+                            	H T M L
+                            </div> 
+                            
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="css.html"><img src="images/css.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	C S S
+                            </div>                           
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            </div> 
+            <div class="grid_3_5 omega"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="php.html"><img src="images/php.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	P H P
+                            </div> 
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            </div> 
+</div>
+</div>
+<footer> 
+		<div class="copy">&copy; Copyright 2016,Ashutosh Nautiyal IT[6th]</div> 
+       
+    </footer>
+</div>
+</div>
+</div>
+</body>
+</html>

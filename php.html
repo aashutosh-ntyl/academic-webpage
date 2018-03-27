@@ -1,0 +1,182 @@
+<!doctype html>  
+ 
+<head> 
+  
+ 
+  <title>P H P (PHP HyperText Pre Processor)</title> 
+  
+  <link rel="stylesheet" href="css/style.css"> 
+  
+  <script src="js/libs/modernizr-1.6.min.js"></script> 
+ 
+</head> 
+ 
+<body style="color:#6699ff"> 
+ <div id="container" > 
+  	<div class="extra_wrap" > 
+  	 <!-- header --> 
+    <header > 
+		 <!-- .logo --> 
+                         <div id="t"> 
+			  <img src="images/simple.jpg" alt="" /> 
+                          <img src="images/right.jpg" alt="" /> 
+ 			  <img src="images/left.jpg" alt="" />
+                          <img src="images/simple.jpg" alt="" /></div> 
+<script>
+   (function(){
+	var imglent=document.getElementById("t");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+        <!-- /.logo --> 
+
+<div id="y"> 
+			  <img src="images/bird1.jpg" alt="" /> 
+                          <img src="images/bird2.jpg" alt="" /> 
+ 			  <img src="images/bird1.jpg" alt="" /></div>
+<script>
+   (function(){
+	var imglent=document.getElementById("y");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+ 
+        <nav> 
+        <ul class="sf-menu"> 
+          <li><a href="index.html" class="current">Home</a></li> 
+
+<li>
+<a>Basic HTML</a>
+<ul>
+<li><a href='.\html.html'>Introduction</a></li>
+<li><a href='.\1.html'>Examples</a></li></ul>
+</li>
+<li>
+<a>CSS</a>
+<ul>
+<li><a href='.\css.html'>Introduction</a></li>
+<li><a href='.\2.html'>Examples</a></li></ul></li>
+<li>
+<a>Java Script</a>
+<ul>
+<li><a href='.\js.html'>Introduction</a></li>
+<li><a href='.\3.html'>Examples</a></li></ul></li> 
+<li>
+<a><b><big><big>PHP</big></big></b></a>
+<ul>
+<li><a href='.\php.html'>Introduction</a></li>
+<li><a href='.\4.html'>Examples</a></li></ul></li>                
+       </ul> 
+      </nav> 
+</header >     <!-- EOF header --> 
+    <div id="main"> 
+
+<H1>P H P (PHP HyperText Pre Processor)</H1> 
+
+<P>
+PHP is a scriptinglanguage – it gets interpretedinstead of being compiledlike C++ and Java. 
+Unlike JavaScript which is executed by the web browser, all PHP code is executed on the web server. 
+The syntax is very similar to Perl and C. Variables are case sensitive, function names are not, and 
+statements must be terminated with a semicolon.  
+</p>
+<p>
+PHP code should be placed between <? code?>or <?php code?>tags. The second method is 
+preferred so your scripts are XML compatible. There is no limitation as to where PHP code can be 
+inserted.
+<p>
+To see information about how PHP is configured, version information, and the settings of all environment 
+variables (e.g., HTTP_USER_AGENT and QUERY_STRING),call the phpinfo()function in any script.
+</p>
+<p>
+The php.inifile is the main configuration file for PHP. It can be edited by the system administrator to 
+change any of the configuration settings. A changeto this file requires the web server be restarted since 
+the file is only read once when the web server starts up. (The phpinfo()function reports the location of 
+php.ini on the server.) 
+</p>
+
+<p>
+It’s a good idea to turn on error and warning output when developing your code so you don’t misuse PHP 
+syntax in unintended ways. Place the following lines of code at the top of your script so errors willbe 
+reported in the rendered web page: 
+ini_set('display_errors', '1');
+error_reporting(E_ALL | E_STRICT); 
+Note that if the php.ini file already has these settings, you don’t need to use these lines of code. 
+</p>
+<p>
+<h3>Introducing Server-Side Programming</h3>
+I begin with an introduction to server-side programming. This is a bit different than the client-side programming you may have done in JavaScript.<br>
+<h4>Server-side programming is done Using PHP.</h4>
+Server-side programming is what you use to create pages dynamically on 
+the server before sending them to the client. Whereas client-side programming is executed on the client’s machine, server-side programming all happens on the server before the Web page is even sent to the user.
+Client-side programming (as done in JavaScript) does most of the work on 
+the individual user’s machine. This has advantages because those machines 
+have doohickeys, like mice and graphics cards. Client-side programs can be 
+interactive in real time.
+</p>
+</div>
+   <div id="main"> 
+		<div class="container"> 
+<h1 style="color:#58ACFA;">Know More</h1>
+        	<div class="overflow"> 
+       		<div class="grid_3_5 alpha"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="html.html"><img src="images/html.jpg" alt="" /> </a>
+				<div class="info_block_title"> 
+                            	H T M L
+                            </div> 
+                            
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="css.html"><img src="images/css.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	C S S
+                            </div>                           
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="js.html"><img src="images/js.jpg" alt="" /></a> 
+			    <div class="info_block_title"> 
+                            	JAVA SCRIPT
+                            </div>
+                        </div>
+            </div> 
+            </div> 
+</div>
+</div>
+       
+<footer> 
+		<div class="copy">&copy; Copyright 2016,Ashutosh Nautiyal IT[6th]</div> 
+       
+    </footer>
+</div>
+</div>
+</div>
+</body>
+</html>

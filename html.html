@@ -1,0 +1,202 @@
+<!doctype html>  
+ 
+<head> 
+  
+ 
+  <title>HTML</title> 
+  
+  <link rel="stylesheet" href="css/style.css"> 
+ 
+</head> 
+ 
+<body style="color:#6699ff"> 
+ <div id="container" > 
+  	<div class="extra_wrap" > 
+  	 <!-- header --> 
+    <header > 
+		 <!-- .logo --> 
+                         <div id="t"> 
+			  <img src="images/simple.jpg" alt="" /> 
+                          <img src="images/right.jpg" alt="" /> 
+ 			  <img src="images/left.jpg" alt="" />
+                          <img src="images/simple.jpg" alt="" /></div> 
+<script>
+   (function(){
+	var imglent=document.getElementById("t");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+        <!-- /.logo --> 
+
+<div id="y"> 
+			  <img src="images/bird1.jpg" alt="" /> 
+                          <img src="images/bird2.jpg" alt="" /> 
+ 			  <img src="images/bird1.jpg" alt="" /></div>
+<script>
+   (function(){
+	var imglent=document.getElementById("y");
+	var images=imglent.getElementsByTagName("img");
+	var counter=1;
+	if(counter<=images.length){
+	setInterval(function(){
+	images[0].src=images[counter].src;
+	console.log(images[counter].src);
+	counter++;
+	if(counter==images.length){
+	counter=1;}
+	},100);}})();
+  </script>
+ 
+        <nav> 
+        <ul class="sf-menu"> 
+<li><a href="index.html" class="current">Home</a></li> 
+<li>
+<a><b><big><big>Basic HTML</big></big></b></a>
+<ul>
+<li><a href='.\html.html'>Introduction</a></li>
+<li><a href='.\1.html'>Examples</a></li></ul>
+</li>
+<li>
+<a>CSS</a>
+<ul>
+<li><a href='.\css.html'>Introduction</a></li>
+<li><a href='.\2.html'>Examples</a></li></ul></li>
+<li>
+<a>Java Script</a>
+<ul>
+<li><a href='.\js.html'>Introduction</a></li>
+<li><a href='.\3.html'>Examples</a></li></ul></li> 
+<li>
+<a>PHP</a>
+<ul>
+<li><a href='.\php.html'>Introduction</a></li>
+<li><a href='.\4.html'>Examples</a></li></ul></li>        
+</ul>     
+ </nav> 
+</header >     <!-- EOF header --> 
+   
+ <div id="main"> 
+
+<H1>HTML (Hyper Text Markup Language) </H1> 
+<br>
+<P>
+HTML (Hyper Text Markup Language) is a language 
+for specifying how text and graphics appear on a 
+web page</p>
+<p>
+<ul>
+<li>When you visit a web site (e.g., www.google.com) 
+your web browser retrieves the HTML web page and 
+renders it</li>
+<li>The HTML page is actually stored on the computer 
+that is hosting the web site and the page is sent to 
+your browser</li>
+<li>To see what HTML looks like go to your web browser 
+Viewmenu and select View Source</li>
+<li>HTML is a textual language that includes 
+special markup tags such as:
+<ul><li>&lttitle&gt Bob’s Diner &lt/title&gt&lt/li&gt&lt/ul&gt&lt/li&gt
+<li><pre>The title tag specifies a title for 
+the web page</pre></li>
+<li>HTML code is stored in a simple text file that 
+has either a .htmor a .htmlfilename extension 
+(e.g., restaurant.html)</li>
+</ul> 
+</p><br><br>
+<h3>What is HTML5?</h3>
+<p>
+HTML5 is the latest standard for HTML.
+The  previous  version  of  HTML,  HTML  4.01,  came  in  1999,  and  the  internet  has  changed 
+significantly since then.
+HTML5 was designed to replace both HTML 4, XHTML, and the HTML DOM Level 2.
+It  was  specially  designed  to  deliver  rich  content  without  the  need  for  additional  plugins.  The 
+current version delivers everything from animation to graphics, music to movies, and can also be 
+used to build complicated web applications.
+</p><br>
+<h3>HTML5 - New Features</h3>
+<p>
+HTML5 introduces a number of new elements and attributes that helps in building a modern 
+websites. Following are great features introduced in HTML5.
+<ul>
+<li> New Semantic Elements: These are like &ltheader&gt, &ltfooter&gt, and &ltsection&gt.</li> 
+<li>  Forms  2.0:  Improvements  to  HTML  web  forms  where  new  attributes  have  been
+introduced for &ltinput&gt tag. </li> 
+<li>  Persistent Local Storage: To achieve without resorting to third-party plugins.</li> 
+<li>   WebSocket  :  A  a  next-generation  bidirectional  communication  technology  for  web
+applications. </li> 
+<li>  Server-Sent Events: HTML5 introduces events which flow from web server to the web
+browsers and they are called Server-Sent Events (SSE). </li> 
+<li>   Canvas:  This supports  a two-dimensional drawing surface that  you  can  program with
+JavaScript. </li> 
+ <li> Audio & Video: You can embed audio or video on your web pages without resorting to
+third-party plugins. </li> 
+<li>   Geolocation:  Now  visitors  can  choose  to  share  their  physical  location  with  your  web
+application. </li> 
+<li>   Microdata:  This  lets  you  create  your  own  vocabularies  beyond  HTML5  and  extend 
+your web pages with custom semantics. </li> 
+<li>  Drag and drop: Drag and drop the items from one location to another location on a  the 
+same webpage.</li> 
+</ul><br>
+</p>
+</div>
+
+   <div id="main"> 
+		<div class="container"> 
+<h1 style="color:#58ACFA;">Know More</h1>
+        	<div class="overflow"> 
+       		<div class="grid_3_5 alpha">  
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="css.html"><img src="images/css.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	C S S
+                            </div>                            
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	 
+                            <a href="js.html"><img src="images/js.jpg" alt="" /></a> 
+			    <div class="info_block_title"> 
+                            	JAVA SCRIPT
+                            </div>
+                        </div>
+                  <!-- EOF info block --> 
+            </div> 
+            <div class="grid_3_5 omega"> 
+            	 <!-- info block --> 
+                    	<div class="info_block p3"> 
+                        	
+                            <a href="php.html"><img src="images/php.jpg" alt="" /></a>
+			    <div class="info_block_title"> 
+                            	P H P
+                            </div> 
+                        </div> 
+                  <!-- EOF info block --> 
+            </div> 
+            </div> 
+</div>
+</div>
+       
+<footer> 
+		<div class="copy">&copy; Copyright 2016,Ashutosh Nautiyal IT[6th]</div> 
+       
+    </footer>
+</div>
+</div>
+</div>
+</body>
+</html>
