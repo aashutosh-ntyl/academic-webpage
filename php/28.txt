@@ -1,0 +1,97 @@
+LOGIN.html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	
+<title>Login Form</title>
+	
+<link rel="stylesheet" href="login-form.css" media="screen">
+	
+	
+<style>
+	body{
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 50px
+	}
+	
+.footer{margin-top:50px;
+	text-align:center;
+	color:#666;
+	font:bold 14px Arial
+	}
+	
+.footer a
+	{color:#999;text-decoration:none}
+	
+.login-form{margin: 50px auto;}
+	
+</style>
+	
+
+</head>
+
+<body class="js">
+
+<center>
+<h1>Please Enter User Name & Password</h1>
+</center>
+
+<div class="login-form">
+	
+<h1>Login Form</h1>
+	
+<form action="check.php" method="post">
+		
+<input type="text" name="username" placeholder="username">
+		
+<input type="password" name="password" placeholder="password">
+		
+<input type="submit" value="log in">
+	
+</form>
+
+</div>
+
+</body>
+</html>
+_____________________________________________________________________________________________________
+CHECK.php
+
+<!Doctype HTML>
+<html>
+<head>
+<title>Result</title>
+<head>
+<body>
+<center>
+
+<?php table();?>
+
+</body>
+</html>
+<?php
+function table()
+{
+
+$con=mysql_connect("localhost","root","")or die("error");
+mysql_select_db("user_detail");
+$num=$_POST['username'];
+$sql = "SELECT * FROM user_info where username='$num'";
+$result = mysql_query($sql) ;
+if($result==FALSE)
+{
+	die(mysql_error());
+}
+while($row = mysql_fetch_array($result))
+{		
+	$num=$_POST['password'];
+	if($num==$row['password'])
+		echo "<h1>WELCOME $_POST[username]</h1>";
+}
+mysql_close();
+}
+?>
