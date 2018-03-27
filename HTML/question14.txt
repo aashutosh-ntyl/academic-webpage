@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>CSS demonstration on repeated image</title>
+        <style>
+            p{
+                font-size: 25px;
+                text-align: justify;
+                color: black;
+            }
+            body {
+		background-image: url(1740409303.jpg);
+                background-repeat: repeat-y;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+	
+        <br><br><br><br><br><br><br><br><br>
+<h1 align=center>Demonstration of image repeat-y</h1><br>
+	<center>15:40 07-03-2016</center> 
+        
+        <pre align=center><h2>
+Demonstration of image repeat-y<br>
+Demonstration of image repeat-y<br>
+Demonstration of image repeat-y<br>
+Demonstration of image repeat-y<br>
+Demonstration of image repeat-y<br>
+Demonstration of image repeat-y<br>
+    </body>
+</html>

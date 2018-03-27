@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<TITLE>JavaScript Animation</TITLE>
+		<SCRIPT type="text/javascript">
+			var imgObj = null;
+			var animate ;
+			function init(){
+				imgObj = document.getElementById('msg');
+				imgObj.style.position= 'relative'; 
+				imgObj.style.left = '0px';  
+			}
+			function moveRight(){
+			   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+				   animate = setTimeout(moveRight,1000); // call moveRight in 20msec
+			}
+			function stop(){
+			   clearTimeout(animate);
+			   
+			}
+			
+		</SCRIPT>
+	</HEAD>
+	<BODY onload = "init()">
+<p>5:59 PM 4/28/2016</p>
+	  <h3 id = "msg"> WELCOME</h3>
+	
+			<FORM>
+			
+			<P>Click the Start button to start aniamtion</P>
+			<INPUT type="button" value="Start" onclick="moveRight();" />
+			<INPUT type="button" value="Stop" onclick="stop();" />
+		</FORM>
+	</BODY>
+</HTML>

@@ -1,0 +1,43 @@
+<html>
+<head><title>interval</title>
+<script>
+var i=0;
+function change_color()
+  { 
+    if(i>5)
+        i=0;
+      if(i==0)
+        {
+            document.bgColor="blue";
+        }
+else  if(i==1)
+           {
+            document.bgColor="grey";
+        }   
+else  if(i==2)
+           {
+            document.bgColor="orange";
+        }   
+else  if(i==3)
+           {
+            document.bgColor="black";
+        }   
+else  if(i==4)
+           {
+            document.bgColor="green";
+        }
+     else
+         document.bgColor="red";  
+        
+i++;
+}
+
+function timemsg()
+  {var t=setInterval("change_color()",3000);
+  }
+
+</script>
+</head>
+<body onload = "timemsg();" >
+</body>
+</html>

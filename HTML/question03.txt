@@ -1,0 +1,58 @@
+<HTML>
+  <HEAD> 
+     <TITLE>QUESTION 3</TITLE>
+  </HEAD>
+  <BODY>
+    <P ALIGN=RIGHT>05:16 PM 10-2-16</P>
+     <TABLE border=5>
+        <CAPTION><b><font size=6>List of Course-wise Subjects</b></CAPTION>
+        <TR>
+           <TH ROWSPAN=2>Sr.<br>No.</TH>
+           <TH ROWSPAN=2>Course</TH>
+            <TH ROWSPAN=2 align=centre>Subject</TH>
+           <TH COLSPAN=2 align=centre>Marks</TH>
+           <TH COLSPAN=2 align=centre>Catagory</TH>
+           <TH ROWSPAN=2 align=centre>Practical/<br>Theory</TH>
+         </TR>
+         <TR>
+           <TH>Internal</TH>
+           <TH>External</TH>
+           <TH>Internal</TH>
+           <TH>External</TH>
+         </TR>
+         <TR>
+            <TD ROWSPAN=4 align=middle>1</TD> <TD ROWSPAN=4 align=middle>MBA</TD><TD>Management Accounting</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>Theory</TD>
+           </TR>   
+           <TR>
+            <TD>Information Technology</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>T and P</TD>
+           </TR>
+           <TR>
+            <TD>Basics of Marketing</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>Theory</TD>
+           </TR>
+           <TR>
+            <TD>E-Commerce</TD><TD>30</TD><TD>-</TD><TD>&#10004</TD><TD>-</TD><TD>Theory</TD>
+         </TR>
+          
+           <TR>
+            <TD ROWSPAN=6 align=middle>2</TD> <TD ROWSPAN=6 align=middle>MCA</TD><TD>Visual Basic</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>T and P</TD>
+           </TR>   
+           <TR>
+            <TD>Internet Technology</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>T and P</TD>
+           </TR>
+           <TR>
+            <TD>Network Technology</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>Theory</TD>
+           </TR>
+           <TR>
+            <TD>VB.Net</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>T and P</TD>
+         </TR>
+           <TR>
+            <TD>Linux</TD><TD>30</TD><TD>70</TD><TD>-</TD><TD>&#10004</TD><TD>T and P</TD>
+         </TR>
+          <TR>
+            <TD>ISA</TD><TD>30</TD><TD>-</TD><TD>&#10004</TD><TD>-</TD><TD>Theory</TD>
+         </TR>
+          </TABLE>
+           <FOOTER>CREATED BY:BISHWAJEET RAY</FOOTER> 
+          
+   </BODY>
+</HTML>  

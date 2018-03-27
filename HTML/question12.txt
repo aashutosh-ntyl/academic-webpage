@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{font-size:15px;font-style:bold;}
+.solid {border-style: ridge; height:20px; box-shadow:blue 20px 12px 20px; margin=20px; background:grey; width:250px; height:150px;}
+.text{text-shadow:green -20px 100px 0px; font-size:30px;font-style:solid padding:-10px;
+     }
+div{
+border:5px solid;
+border-radius:120px;
+border-style:dashed;
+padding:5px;
+margin:20px;
+height:200px;
+width:300px;
+}
+
+</style>
+</head>
+<body>
+<center>15:40 08-03-2016</center> 
+
+<h2 align=center>Demonstration of Text and Box Shadow</h2>
+<p class="solid">This is demo of box shadow</p><br>
+<p class="text">this is an example of text shadow</p><br><br>
+<div><pre>         Demo of Border-Radius</div>
+</body>
+</HTML>

@@ -1,0 +1,36 @@
+<html>
+<head><title>Country Capital</title>
+<script>
+function check()
+{ 
+if(document.f1.s1.value==document.f1.s2.value)
+alert("Correct Answer");
+else
+alert("Wrong answer.Correct answer:"+document.f1.s1.value);
+}
+
+</script>
+</head>
+<body bgcolor=lightgrey>
+<form name="f1">
+<fieldset>
+<legend><h2>Country and Capital</h2></legend><br>
+<B>Country:</B>&nbsp&nbsp<select name="s1">
+<option value="Colombo">Srilanka</option>
+<option value="Islamabad">Pakistan</option>
+<option value="NewDelhi">India</option>
+<option value="Beijing">China</option>
+<option value="Kathmandu">Nepal</option>
+</select><br><br>
+<B>Capital:</B>&nbsp&nbsp&nbsp<select name="s2">
+<option value="NewDelhi">New Delhi</option>
+<option value="Kathmandu">Kathmandu</option>
+<option value="Beijing">Beijing</option>
+<option value="Colombo">Colombo</option>
+<option value="Islamabad">Islamabad</option>
+</select><br><br>
+<input type="button" value="check" onclick="check();"><br>
+</fieldset>
+</form>
+</body>
+</html>

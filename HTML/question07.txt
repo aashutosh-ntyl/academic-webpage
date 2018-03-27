@@ -1,0 +1,20 @@
+<HTML>
+  <HEAD>
+    <TITLE>QUESTION 5</TITLE>
+  </HEAD>
+  <BODY>
+      
+     <P align=middle>12:04 AM 11-2-16</P>
+      Demonstration of usemapping
+     <P>
+        <img src="indiamap.jpg" usemap="#mapimage"></P>
+                 
+  <MAP NAME="mapimage">
+            <AREA shape="polygon" coords="345,228,550,157,573,202,502,324,477,254,409,235,423,327,320,279,345,222" href="east.html" TITLE="TOURISM OF EAST INDIA">
+            <AREA shape="polygon" coords="195,237,97,362,42,320,46,213,119,163,195,237" href="west.html" TITLE="TOURISM OF WEST INDIA">
+            <AREA shape="polygon" coords="97,399,337,401,189,640,97,399" href="south.html" TITLE="TOURISM OF SOUTH INDIA">
+            <AREA shape="polygon" coords="154,4,203,39,249,38,225,88,245,186,198,227,130,155,154,4" href="north.html" TITLE="TOURISM OF NORTH INDIA">       
+            <AREA shape="polygon" coords="257,203,306,254,212,333,150,327,196,275,257,203" href="centre.html" TITLE="TOURISM OF CENTRE INDIA">     
+ 
+   </BODY>
+</HTML>

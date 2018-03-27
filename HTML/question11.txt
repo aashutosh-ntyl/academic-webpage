@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<style> 
+a:link{color:pink} 
+a:visited {color:green} 
+a:hover {font-size: 150%} 
+a:active {color:blue} 
+a {text-decoration:none} 
+</style> 
+</head> 
+<body>
+<center>15:40 08-03-2016</center> 
+<center><h1>Cascading Style Sheet</h1></center> 
+<br> 
+<li><a href="18.html">Facebook</a></li> 
+<li><a href="11.html">Twitter</a></li> 
+<li><a href="12 border.html">Instagram</a></li> 
+<li><a href="17 heart.html">Google+</a></li> 
+<li><a href="18 snapshot.html">Snapchat</a></li> 
+</body> 
+</html> 
